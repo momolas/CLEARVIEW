@@ -384,7 +384,7 @@
 			mainGroup = B4000001;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				BA000001 /* XCRemoteSwiftPackageReference "SwiftVLC" */,
+				BA000001 /* XCRemoteSwiftPackageReference "VLCKit" */,
 			);
 			productRefGroup = B4000003 /* Products */;
 			projectDirPath = "";
@@ -1021,7 +1021,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BA000001 /* XCRemoteSwiftPackageReference "SwiftVLC" */ = {
+		BA000001 /* XCRemoteSwiftPackageReference "VLCKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/harflabs/SwiftVLC";
 			requirement = {
@@ -1034,7 +1034,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		B8000001 /* SwiftVLC */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BA000001 /* XCRemoteSwiftPackageReference "SwiftVLC" */;
+			package = BA000001 /* XCRemoteSwiftPackageReference "VLCKit" */;
 			productName = SwiftVLC;
 		};
 /* End XCSwiftPackageProductDependency section */

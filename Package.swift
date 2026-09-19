@@ -3,10 +3,10 @@
 import PackageDescription
 
 let package = Package(
-  name: "SwiftVLC",
+  name: "VLCKit",
   platforms: [.iOS(.v18), .macOS(.v15), .tvOS(.v18), .visionOS(.v2), .macCatalyst(.v18)],
   products: [
-    .library(name: "SwiftVLC", targets: ["SwiftVLC"])
+    .library(name: "VLCKit", targets: ["VLCKit"])
   ],
   dependencies: [
     // Build-time plugin only; not linked into consumers.
@@ -60,8 +60,9 @@ let package = Package(
       ]
     ),
     .target(
-      name: "SwiftVLC",
+      name: "VLCKit",
       dependencies: ["CLibVLC"],
+      path: "Sources/SwiftVLC",
       swiftSettings: [
         .swiftLanguageMode(.v6),
         // Upcoming features that become default in Swift 7 — opt-in early
